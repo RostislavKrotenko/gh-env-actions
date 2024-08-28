@@ -11,7 +11,7 @@ jobs:
     env:
       MONGODB_CLUSTER_ADDRESS: cluster0.lw2ei.mongodb.net
       MONGODB_USERNAME: rostislav
-      MONGODB_PASSWORD: h@Tjr8LNwgJ3e.D
+      MONGODB_PASSWORD: N7Evdv8hpr8T24mU
       PORT: 8080
     runs-on: ubuntu-latest
     steps:
