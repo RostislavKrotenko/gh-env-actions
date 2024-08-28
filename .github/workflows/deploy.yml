@@ -9,7 +9,7 @@ env:
 jobs:
   test:
     env:
-      MONGODB_CLUSTER_ADDRESS: atlascluster.lw2ei.mongodb.net
+      MONGODB_CLUSTER_ADDRESS: cluster0.lw2ei.mongodb.net
       MONGODB_USERNAME: rostislav
       MONGODB_PASSWORD: h@Tjr8LNwgJ3e.D
       PORT: 8080
