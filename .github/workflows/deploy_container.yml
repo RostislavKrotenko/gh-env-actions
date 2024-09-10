@@ -18,11 +18,11 @@ jobs:
       MONGODB_CLUSTER_ADDRESS: mongodb
       MONGODB_USERNAME: root
       MONGODB_PASSWORD: example
-      PORT: 27017:27017
+      PORT: 8080
     services:
       mongodb:
         image: mongo
-        env:
+        environment:
           MONGO_INITDB_ROOT_USERNAME: root
           MONGO_INITDB_ROOT_PASSWORD: example
     steps:
